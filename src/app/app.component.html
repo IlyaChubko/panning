@@ -1,0 +1,11 @@
+<div style="position: absolute; top: 100px; bottom: 0; left: 0; right: 0;">
+	<pan-zoom [config]="panZoomConfig">
+		<div (cdkDragMoved)="onNodeItemDragMoved($event)"
+		     [cdkDragFreeDragPosition]="position"
+		     cdkDrag
+		     class="absolute border-solid w-20rem h-20rem border-1 border-round-md bg-white left-0 nodeDrag flex justify-content-center"
+		>
+			<div class="m-2 flex align-items-center justify-content-center">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.</div>
+		</div>
+	</pan-zoom>
+</div>
